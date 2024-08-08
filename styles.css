@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left i {
+    font-size: 32px;
+    color: #0073b1;
+    margin-right: 20px;
+}
+
+.header-left input {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #e1e1e1;
+}
+
+.header-right i {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #e1e1e1;
+    cursor: pointer;
+}
+
+.header-right .profile-pic-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.sidebar, .right-sidebar {
+    width: 20%;
+    padding: 10px;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .profile-card, .right-sidebar .recommendations {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-pic-sidebar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-card h2, .recommendations h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-card p, .recommendations p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.sidebar-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.sidebar-stats p {
+    margin: 0;
+}
+
+.sidebar-stats span {
+    color: #0073b1;
+}
+
+.recommendations .recommendation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.recommendation-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.recommendation-info p {
+    margin: 0;
+    flex: 1;
+}
+
+.recommendation-info button {
+    background-color: #0073b1;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.recommendations a {
+    display: block;
+    text-align: center;
+    color: #0073b1;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.post-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #a8a8a8;
+}
+
+.time {
+    color: #9a9a9a;
+}
+
+.post-header i {
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    color: #a8a8a8;
+    cursor: pointer;
+}
+
+.post-content {
+    padding: 0 20px 20px 20px;
+}
+
+.post-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.post-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.post-footer {
+    padding: 10px 20px;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactions i {
+    margin-right: 15px;
+    color: #a8a8a8;
+    cursor: pointer;
+}
+
+.reaction-count span {
+    color: #a8a8a8;
+}
